@@ -1,0 +1,242 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  scroll-behavior: smooth;
+}
+/* nav */
+.nav{
+  height: 90px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 50px;
+}
+.page2 {
+  display: flex;
+  gap: 40px;
+}
+.nav h3 a{
+  text-decoration: none;
+  color: white;
+}
+.page2 h3 a {
+  border-bottom: 3px solid transparent;
+  transition: border-bottom 2s ease;
+}
+.page2 h3 a:hover {
+  border-bottom: 3px solid white;
+}
+.dark-mode{
+  background-color: black;
+  color: white;
+}
+.light-mode {
+  background-color: white;
+  color: black;
+}
+.light-mode .nav h3 a{
+  background-color: white;
+  color: black;
+}
+.light-mode .page2 h3 a{
+  border-bottom: 3px solid transparent;
+}
+.light-mode .page2 h3 a:hover{
+  border-bottom: 3px solid black;
+}
+/* Home */
+
+.home {
+  height: 400px;
+  width: 100%;
+  padding-top: 30px;
+}
+.image{
+  display: flex;
+  justify-content: center;
+}
+.myImage{
+  height: 110px;
+  width: 120px;
+  border-radius: 50%;
+}
+.line1{
+   text-align: center;
+}
+.line2{
+  text-align: center;
+  font-size: 35px;
+}
+.line3{
+  text-align: center;
+  font-size: 35px;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+}
+.mybtn{
+  height: 50px;
+  width: 150px;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+  color: black;
+}
+.mybtn:hover{
+  background-color: wheat;
+  cursor: pointer;
+}
+.light-mode .mybtn{
+  background-color: black;
+  color: white;
+}
+.light-mode .mybtn:hover{
+  background-color: rgb(24, 23, 23);
+}
+/* projects */
+
+.projects{
+  height:480px;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.boxes{
+  margin-top: 20px;
+  display: flex;
+   justify-content: space-around;
+}
+.box{
+  height: 350px;
+  width: 320px;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+.box .ecommerce {
+  height: 150px;
+  margin-top: 60px;
+  border-radius: 20px;
+}
+.box h3 {
+  margin-top: 10px;
+}
+.box .portfolio {
+  height: 150px;
+  width:250PX;
+  margin-top: 60px;
+  border-radius: 20px;
+}
+.box .chatapp {
+  height: 150px;
+  width:250PX;
+  margin-top: 60px;
+  border-radius: 20px;
+}
+.light-mode .projects {
+  background-color: white ;
+  color: black;
+}
+.light-mode .box{
+  border: 2px solid black;
+}
+.light-mode .ecommerce{
+  border: 2px solid black;
+}
+.light-mode .portfolio{
+  border: 2px solid black;
+}
+.light-mode .chatapp{
+  border: 2px solid black;
+}
+/* skills */
+.skills {
+  height: 400px;
+  width: 100%;
+  text-align: center;
+}
+.html img {
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+ margin: 20px 0 20px 550px;
+ border: 2px solid white;
+}
+.css img {
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.javascript img {
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.images2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 400px;
+}
+.light-mode .skills{
+  background-color: white;
+  color: black;
+}
+.light-mode .html img {
+  border: 2px solid black;
+}
+.light-mode .css img {
+  border: 2px solid black;
+}
+.light-mode .javascript img {
+  border: 2px solid black;
+}
+.contact{
+  height: 520px;
+  width: 100%;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.form label{
+  margin-left: 450px;
+}
+.form input{
+  height: 50px;
+  width: 400px;
+  border-radius: 10px;
+  margin-left: 450px;
+  border: none;
+}
+.form textarea{
+  height: 70px;
+  width: 400px;
+  border-radius: 10px;
+  margin-left: 450px;
+  border: none;
+}
+.form .btnSubmit{
+  height: 40px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  margin-left: 580px;
+  margin-top: 30px;
+}
+.contact h1 {
+  text-align: center;
+}

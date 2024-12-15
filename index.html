@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+  <div class="nav">
+    <h1>Nisha</h1>
+    <div class="page2">
+      <h3> <a href="#home">Home</a></h3>
+      <h3> <a href="#projects">Projects</a></h3>
+      <h3> <a href="#skills">Skills</a></h3>
+      <h3> <a href="#contactme">Contact me</a></h3>
+      <h2 id="dark-mode"><i class="fa-solid fa-moon"></i></h2>
+    </div>
+  </div>
+  <div class="home" id="home">
+    <div class="image">
+    <img src="Nishaedit.jpg" class="myImage"/>
+  </div>
+  <div class="lines">
+    <div class="line1">
+      <h2>Hii , I'm Nisha</h2>
+    </div>
+    <div class="line2">
+      <h1>FRONT-END</h1>
+    </div>
+    <div class="line3">
+      <h1>WEB DEVELOPER</h1>
+    </div>
+  </div>
+  <div class="btn">
+  <button class="mybtn">View skills</button>
+  </div>
+  </div>
+  <div class="projects" id="projects">
+    <h1>Some of My Recent Projects</h1>
+    <div class="boxes">
+    <div class="box">
+      <img src="e commerce.jfif" class="ecommerce"/>
+      <h3>E-COMMERCE WEBSITE</h3>
+      <h2><a href="#">Check it out</a></h2>
+    </div>
+    <div class="box">
+      <img src="portfolio.png" class="portfolio"/>
+      <h3>PORTFOLIO WEBSITE</h3>
+      <h2><a href="#">Check it out</a></h2>
+    </div>
+    <div class="box">
+      <img src="chatapp.jfif" class="chatapp"/>
+      <h3>CHAT APPLICATION</h3>
+      <h2><a href="#">Check it out</a></h2>
+    </div>
+  </div>
+  </div>
+  <div class="skills" id="skills">
+    <h1>Skills</h1>
+    <div class="images">
+      <div class="html">
+        <img src="html.png"/>
+      </div>
+    </div>
+      <div class="images2">
+      <div class="css">
+        <img src="css.svg"/>
+      </div>
+      <div class="javascript">
+        <img src="javascript.webp"/>
+      </div>
+    </div>
+  </div>
+  <div class="contact" id="contact">
+    <h1>Contact me</h1>
+    <form id="myform">
+      <div class="form">
+        <label for="name">Name</label>
+        <input placeholder="Name" id="name" name="name" type="text"/>
+        <label for="email">Email</label>
+        <input placeholder="Email" id="email" name="email" type="email"/>
+        <label for="message">Message</label>
+        <textarea placeholder="message" id="message" name="message"></textarea>
+        <button class="btnSubmit">Submit</button>
+        <div id="formOutput">
+
+        </div>
+      </div>
+    </form>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
